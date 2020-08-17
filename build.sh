@@ -1,3 +1,4 @@
+rm -rf build/
 mkdir -p build/web
 
 cd client
@@ -13,5 +14,3 @@ rm -rf build/
 
 cd ../build
 yarn install --prod
-
-
